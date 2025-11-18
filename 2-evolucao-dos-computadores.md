@@ -105,3 +105,43 @@ A segunda geração de computadores, que surgiu entre 1956 e 1963, marcou uma gr
 
 - Capazes de rodar programas mais complexos e realizar cálculos científicos ou empresariais de forma mais eficiente.
 
+## 3 - Terceira Geração (1964–1971)
+A terceira geração de computadores, entre 1964 e 1971, trouxe uma revolução tecnológica com o uso de circuitos integrados, permitindo computadores menores, mais rápidos e confiáveis.
+
+### Tecnologia
+- Os circuitos integrados (chips) substituíram os transistores individuais.
+<img src="./assets/img/circuito-integrado.jpg" alt="Circuito integrado" width="500">
+
+- Cada chip podia conter centenas ou milhares de transistores, tornando os computadores mais compactos e eficientes.
+
+- A redução do tamanho dos componentes diminuiu o consumo de energia e o aquecimento, aumentando a confiabilidade.
+
+### Características gerais
+- Redução significativa do tamanho físico, permitindo que os computadores ocupassem menos espaço.
+
+- Aumento da velocidade de processamento, possibilitando cálculos e operações mais complexas.
+
+- Maior confiabilidade, com menos falhas em comparação às gerações anteriores.
+
+### Memória e armazenamento
+- Melhorias na RAM, com maior capacidade e velocidade.
+
+- Avanços nos discos rígidos, permitindo armazenar mais dados e acessar informações de forma mais rápida.
+
+- Memória e armazenamento mais eficientes suportaram programas maiores e mais complexos.
+
+### Sistemas operacionais
+- Surgem os primeiros sistemas operacionais multitarefa, permitindo que vários programas fossem executados simultaneamente.
+
+- Isso aumentou a produtividade e a flexibilidade dos computadores.
+
+### Exemplos de computadores
+- IBM 360: um dos primeiros computadores de grande sucesso comercial, versátil para uso empresarial e científico.
+
+<img src="./assets/img/ibm-360.jpg" alt="IBM 360" width="500">
+
+- DEC PDP-8: considerado o primeiro computador de minicomputador, mais acessível e compacto.
+
+<img src="./assets/img/PDP-8.jpg" alt="PDP-8" width="500">
+
+
