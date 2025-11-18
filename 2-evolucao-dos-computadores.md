@@ -50,6 +50,7 @@ A primeira geração de computadores marcou o início da era da computação, en
 
 ### Memória
 - Os dados eram armazenados em cartões perfurados e fitas magnéticas.
+<img src="./assets/img/Cartão-perfurado-4.jpg" alt="Cartão perfurado" width="500">
 
 - Esses dispositivos permitiam apenas armazenamento limitado e leitura sequencial, o que tornava o processamento mais lento.
 
@@ -74,4 +75,33 @@ A primeira geração de computadores marcou o início da era da computação, en
 
 - Consumo de energia elevado e alta taxa de falhas devido ao superaquecimento.
 
+
+## 2 - Segunda Geração (1956–1963)
+A segunda geração de computadores, que surgiu entre 1956 e 1963, marcou uma grande evolução em relação à primeira geração. Nessa fase, os transistores substituíram as válvulas eletrônicas, trazendo maior confiabilidade, velocidade e eficiência energética.
+
+### Tecnologia
+- Os transistores são componentes eletrônicos menores e mais confiáveis que as válvulas, capazes de amplificar sinais e realizar operações lógicas.
+
+- Comparados às válvulas, consomem menos energia, geram menos calor e reduzem significativamente a taxa de falhas.
+
+<img src="./assets/img/transistor.jpg" alt="transistor" width="400">
+
+### Memória
+- Os computadores da segunda geração usavam fitas magnéticas e começaram a utilizar os primeiros discos rígidos rudimentares.
+
+<img src="./assets/img/fitas-magneticas.jpg" alt="Fitas Magnéticas" width="400">
+
+- Isso permitiu armazenamento de dados mais rápido e maior capacidade em relação à geração anterior.
+
+### Linguagem de programação
+- Surgem as linguagens assembly e as primeiras linguagens de alto nível, como FORTRAN e COBOL.
+
+- Isso tornou a programação mais simples e menos suscetível a erros do que escrever diretamente em linguagem de máquina (binário).
+
+### Características gerais
+- Computadores menores que os da primeira geração, mas ainda grandes para os padrões atuais.
+
+- Mais rápidos e confiáveis, com menor consumo de energia.
+
+- Capazes de rodar programas mais complexos e realizar cálculos científicos ou empresariais de forma mais eficiente.
 
