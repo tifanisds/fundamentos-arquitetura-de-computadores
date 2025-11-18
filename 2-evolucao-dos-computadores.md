@@ -145,3 +145,43 @@ A terceira geração de computadores, entre 1964 e 1971, trouxe uma revolução 
 <img src="./assets/img/PDP-8.jpg" alt="PDP-8" width="500">
 
 
+## 4 - Quarta Geração (1971–presente)
+A quarta geração de computadores, iniciada em 1971 e ainda em andamento, marcou a era dos microprocessadores, permitindo a criação de computadores pessoais acessíveis e compactos.
+
+### Tecnologia
+- Os microprocessadores concentraram toda a CPU em um único chip, reduzindo drasticamente o tamanho e o custo dos computadores.
+
+<img src="./assets/img/microprocessador.jpg" alt="microprocessador" width="500">
+
+
+- Isso aumentou a velocidade de processamento, a eficiência energética e a confiabilidade do sistema.
+
+### Características gerais
+- Surgem os computadores pessoais (PCs), acessíveis a empresas, escolas e consumidores domésticos.
+
+- Menor custo e tamanho reduzido possibilitam a popularização da informática.
+
+- Computadores mais rápidos, confiáveis e fáceis de usar, prontos para tarefas cotidianas como escrita, cálculos, jogos e navegação na internet.
+
+### Software
+- Desenvolvem-se sistemas operacionais mais avançados, capazes de gerenciar múltiplas tarefas e periféricos.
+
+- Interface gráfica (GUI) facilita a interação do usuário, tornando a computação mais intuitiva e visual.
+
+<img src="./assets/img/Interface-gráfica-(GUI).jpg" alt="Interface gráfica (GUI)" width="500">
+
+- Surgem programas de produtividade, editores gráficos, navegadores e aplicativos domésticos.
+
+### Exemplos de computadores da Quarta Geração
+- Apple II (1977)
+
+<img src="./assets/img/Apple-II-(1977).jpg" alt="Apple II (1977)" width="400">
+
+- Commodore 64 (1982)
+
+<img src="./assets/img/Commodore-64-(1982).jpg" alt="Commodore 64 (1982)" width="400">
+
+- Laptops e desktops modernos (anos 1990–presente)
+
+<img src="./assets/img/laptop-90s.webp" alt="Laptop 90s" width="400">
+
