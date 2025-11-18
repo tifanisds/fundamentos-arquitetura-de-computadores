@@ -79,3 +79,62 @@ Ex.: DDR4/DDR5, PCIe, canais múltiplos.
 
 Aumentam a largura de banda e diminuem o tempo de espera.
 
+## Unidade Lógica e Aritmética (ULA/ALU)
+A ULA (em português) ou ALU, Arithmetic and Logic Unit (em inglês) é um dos componentes centrais da CPU. Ela é responsável por executar todas as operações matemáticas e lógicas necessárias para que o computador funcione.
+
+É dentro da ULA que ocorrem os cálculos e decisões que permitem que um programa avance.
+
+<img src="./assets/img/ula.jpg" alt="ULA" width="500">
+
+### Função principal da ALU
+A ULA é responsável por processar dados, realizando:
+
+#### Operações aritméticas:
+
+- Soma (ADD)
+- Subtração (SUB)
+- Multiplicação (MUL)
+- Divisão (DIV)
+
+Algumas CPUs realizam multiplicação e divisão na ULA; outras utilizam unidades específicas, mas seguem a mesma lógica: a ULA é o núcleo do cálculo.
+
+#### Operações lógicas:
+Usadas para decisões e comparações.
+
+- AND → retorna verdadeiro se ambos os bits forem 1
+- OR → retorna verdadeiro se pelo menos um bit for 1
+- NOT → inverte um bit (0 vira 1, e 1 vira 0)
+- XOR → verdadeiro se os bits forem diferentes
+
+#### Comparações:
+Usadas para permitir desvios e decisões dentro dos programas (if, loops).
+
+- Igualdade (=?)
+- Diferente (≠?)
+- Maior que (>)
+- Menor que (<)
+- Maior ou igual (≥)
+- Menor ou igual (≤)
+
+Essas comparações retornam valores internos (flags), usados pela CPU para decidir o próximo passo.
+
+### Como a ULA trabalha internamente
+A ALU recebe dois tipos de entrada:
+
+- Dados (operandos) – valores vindos da memória ou registradores
+- Instruções – comandos enviados pela Unidade de Controle (UC)
+
+A UC diz qual operação a ALU deve executar.
+A ALU então realiza o cálculo e devolve o resultado para um registrador, que será usado pela CPU ou pela próxima etapa da instrução.
+
+### Relação entre ULA e UC
+A Unidade de Controle (UC) é o "cérebro organizador" da CPU, enquanto a ULA é o "braço executor".
+
+Podemos visualizar assim:
+
+- A UC → interpreta as instruções
+- A UC → envia sinais de controle
+- A ULA → executa o cálculo
+- A ULA → devolve o resultado para a CPU
+- A ULA nunca decide o que fazer sozinha, ela sempre age sob comando da UC.
+
