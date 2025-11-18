@@ -79,14 +79,14 @@ Ex.: DDR4/DDR5, PCIe, canais múltiplos.
 
 Aumentam a largura de banda e diminuem o tempo de espera.
 
-## Unidade Lógica e Aritmética (ULA/ALU)
-A ULA (em português) ou ALU, Arithmetic and Logic Unit (em inglês) é um dos componentes centrais da CPU. Ela é responsável por executar todas as operações matemáticas e lógicas necessárias para que o computador funcione.
+## Unidade Lógica e Aritmética (ULA/ULA)
+A ULA (em português) ou ULA, Arithmetic and Logic Unit (em inglês) é um dos componentes centrais da CPU. Ela é responsável por executar todas as operações matemáticas e lógicas necessárias para que o computador funcione.
 
 É dentro da ULA que ocorrem os cálculos e decisões que permitem que um programa avance.
 
 <img src="./assets/img/ula.jpg" alt="ULA" width="500">
 
-### Função principal da ALU
+### Função principal da ULA
 A ULA é responsável por processar dados, realizando:
 
 #### Operações aritméticas:
@@ -119,13 +119,13 @@ Usadas para permitir desvios e decisões dentro dos programas (if, loops).
 Essas comparações retornam valores internos (flags), usados pela CPU para decidir o próximo passo.
 
 ### Como a ULA trabalha internamente
-A ALU recebe dois tipos de entrada:
+A ULA recebe dois tipos de entrada:
 
 - Dados (operandos) – valores vindos da memória ou registradores
 - Instruções – comandos enviados pela Unidade de Controle (UC)
 
-A UC diz qual operação a ALU deve executar.
-A ALU então realiza o cálculo e devolve o resultado para um registrador, que será usado pela CPU ou pela próxima etapa da instrução.
+A UC diz qual operação a ULA deve executar.
+A ULA então realiza o cálculo e devolve o resultado para um registrador, que será usado pela CPU ou pela próxima etapa da instrução.
 
 ### Relação entre ULA e UC
 A Unidade de Controle (UC) é o "cérebro organizador" da CPU, enquanto a ULA é o "braço executor".
@@ -137,4 +137,72 @@ Podemos visualizar assim:
 - A ULA → executa o cálculo
 - A ULA → devolve o resultado para a CPU
 - A ULA nunca decide o que fazer sozinha, ela sempre age sob comando da UC.
+
+## Unidade de Controle (UC/Control Unit)
+A Unidade de Controle (UC) é a parte da CPU responsável por coordenar, organizar e sincronizar todas as operações internas do processador.
+Se a ULA é o “braço” que executa cálculos, a UC é o cérebro que decide o que deve acontecer e quando.
+
+Ela garante que cada instrução de um programa seja buscada, interpretada e executada corretamente.
+
+### Função principal da UC
+A UC controla o funcionamento da CPU como um diretor de orquestra:
+
+- Define qual instrução será executada.
+
+- Decide como essa instrução será executada.
+
+- Envia sinais elétricos que ativam componentes como ULA, registradores e barramentos.
+
+- Garante a ordem correta das operações.
+
+Em resumo:
+
+- A UC coordena todo o ciclo de execução das instruções.
+
+### O que a UC faz exatamente?
+#### 1. Busca de instruções na memória (Fetch)
+
+A UC pega o endereço da próxima instrução no contador de programa (PC) e envia um comando para buscar essa instrução na memória RAM.
+
+Depois, a instrução é armazenada no registrador de instrução (IR).
+
+#### 2. Decodificação da instrução (Decode)
+
+A UC interpreta o que a instrução significa:
+
+- É uma soma?
+- Uma comparação?
+- Mover um dado?
+- Pular para outra linha do programa?
+
+A UC traduz a instrução em sinais de controle internos.
+
+#### 3. Controle do fluxo de dados (Execute)
+
+A UC envia sinais para:
+
+- A ULA, indicando qual operação ela deve fazer.
+- Os registradores, indicando de onde pegar e para onde enviar dados.
+- Os barramentos, permitindo ou bloqueando a circulação de informações.
+
+Ela coordena todo o caminho percorrido pelos dados.
+
+#### 4. Gerência dos barramentos
+
+Os barramentos transportam:
+
+- dados,
+- endereços,
+- sinais de controle.
+
+A UC é quem decide:
+
+- qual dispositivo usa o barramento naquele instante;
+- quando a memória deve enviar dados;
+- quando a ULA deve escrever resultados;
+- quando um dispositivo de E/S deve comunicar-se.
+
+Sem essa coordenação, os dispositivos "falariam ao mesmo tempo" e o sistema entraria em conflito.
+
+<img src="./assets/img/UC.png" alt="UC Unidade de Controle" width="500">
 
