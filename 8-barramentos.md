@@ -13,6 +13,8 @@ Ou seja, ele conecta CPU, memória, dispositivos de entrada/saída, placa-mãe, 
 
 Sem barramentos, os componentes seriam “ilhas isoladas”.
 
+<img src="./assets/img/barramentos.jpg" alt="Barramentos" width="500">
+
 ## Tipos de Barramentos (Arquitetura clássica)
 Os barramentos tradicionais são divididos em três grandes categorias:
 
