@@ -59,5 +59,28 @@ Tecnologia x Princípio x Vantagem x Desvantagem
 | **Mini-LED**       | LCD com LEDs muito pequenos criando zonas de escurecimento | Contraste muito melhor, brilho altíssimo              | Ainda pode ter “blooming”              |
 | **Micro-LED**      | Cada pixel é um LED individual                             | Sem burn-in, brilho alto, preto perfeito              | Extremamente caro, ainda raro          |
 
+## Características Técnicas Importantes
+Abaixo, cada característica explicada de forma detalhada:
+
+<img src="./assets/img/caracteristicas-tecnicas.png" alt="Características Técnicas" width="600">
+
+## Tipos de painéis
+
+| Painel  | Vantagens                        | Desvantagens                | Uso Ideal             |
+| ------- | -------------------------------- | --------------------------- | --------------------- |
+| **TN**  | Muito rápido, barato             | Cores fracas, ângulos ruins | Jogos competitivos    |
+| **VA**  | Melhor contraste, preto profundo | Tempo de resposta mediano   | Filmes, uso geral     |
+| **IPS** | Cores excelentes, ótimos ângulos | Contraste mediano           | Design, produtividade |
+
+## Aplicação do tipo de monitores
+
+| Uso                        | Melhor Tipo          | Motivo              |
+| -------------------------- | -------------------- | ------------------- |
+| Escritório / estudo        | IPS ou VA            | Conforto + precisão |
+| Design / edição            | IPS ou OLED          | Fidelidade de cor   |
+| Jogos competitivos         | TN ou IPS 144–240 Hz | Baixa latência      |
+| Filmes                     | VA ou OLED           | Contraste superior  |
+| Ambientes muito iluminados | QLED / Mini-LED      | Alto brilho         |
+
 
 
