@@ -99,3 +99,58 @@ Para muitas pessoas, BlackBerry era sinônimo de smartphone antes do iPhone.
 | **Computação portátil**          | Windows Mobile           | Office móvel, multitarefa                   |
 
 
+## A Virada de 2007: iPhone e a Nova Era
+Em 2007, a Apple lançou o primeiro iPhone, e esse momento é considerado uma das maiores revoluções tecnológicas da história moderna.
+
+Não foi apenas mais um smartphone, foi uma mudança de paradigma, redefinindo interface, design, ecossistema e forma de interação humana com dispositivos móveis.
+
+### Lançamento do iPhone original (2007)
+No dia 9 de janeiro de 2007, Steve Jobs apresentou o iPhone como “um iPod widescreen com controles por toque, um telefone revolucionário e um comunicador de internet”, três produtos em um só.
+
+<img src="./assets/img/steve-jobs-e-primeiro-iphone.jpg" alt="Primeiro iphone" width="400">
+
+#### Características do primeiro iPhone:
+
+- Tela multitouch capacitiva de 3.5” (sem stylus)
+- Navegação web real (Safari)
+- iOS (na época, chamado apenas de “iPhone OS”)
+- Interface simples e fluida
+- Armazenamento de 4–8 GB
+- Sem teclado físico
+- Design totalmente em vidro e alumínio
+
+Nada parecido existia no mercado.
+
+### App Store (2008) e a economia dos apps
+
+A primeira versão do iPhone (2007) não tinha App Store, só aplicativos nativos.
+
+Mas em 2008, a Apple lançou a App Store, e isso mudou tudo:
+
+#### Por que a App Store foi revolucionária?
+- Criou a economia dos aplicativos.
+- Permitiu que desenvolvedores independentes criassem apps.
+- Trouxe segurança e padronização.
+- Gerou um ecossistema global.
+- Transformou smartphones em ferramentas infinitamente expansíveis.
+
+Hoje, apps movimentam bilhões de dólares e são essenciais no cotidiano, essa transformação começou aqui.
+
+#### Mudança de paradigma: do teclado físico para telas totalmente touch
+
+Antes do iPhone:
+
+- BlackBerry dominava com teclados físicos.
+- Palm e Windows Mobile também dependiam de stylus.
+- A interface era pensada para "cliques" e menus hierárquicos.
+
+O iPhone mostrou que:
+- o teclado poderia aparecer apenas quando necessário
+- uma interface baseada em gestos era mais natural
+- o espaço do telefone deveria ser quase totalmente tela
+- a navegação deveria ser fluida e visual
+
+Essa mudança fez gigantes da época repensarem tudo, inclusive o Google, que redesenhou o Android após ver o iPhone.
+
+** STYLUS: é um pequeno objeto em formato de caneta usado para interagir com a tela de dispositivos
+
