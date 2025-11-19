@@ -206,3 +206,55 @@ Sem essa coordenação, os dispositivos "falariam ao mesmo tempo" e o sistema en
 
 <img src="./assets/img/UC.png" alt="UC Unidade de Controle" width="500">
 
+## Memória
+A memória tem a função de guardar tudo o que o computador precisa para funcionar, incluindo:
+
+- instruções do programa (código a ser executado)
+- dados que o programa irá manipular
+- valores temporários usados durante o processamento
+- endereços e ponteiros
+- informações do sistema operacional
+
+A CPU acessa essa memória constantemente para buscar instruções e manipular dados.
+
+### Tipos de memória na arquitetura
+
+#### Memória Principal (RAM)
+É a memória de trabalho do computador.
+
+- Volátil (perde dados quando o PC desliga).
+- Muito rápida.
+- Utilizada para armazenar dados temporários e instruções em execução.
+
+A CPU acessa a RAM várias vezes por segundo.
+
+<img src="./assets/img/memoria-ram.jpg" alt="Memória RAM" width="400">
+
+#### Memória ROM
+(Read-Only Memory)
+
+- Não volátil.
+- Armazena instruções permanentes, como o firmware ou o sistema de boot.
+- Geralmente não pode ser alterada pelo usuário.
+
+Embora a ROM não seja tão usada durante o processamento normal, ela é fundamental para iniciar o sistema.
+
+<img src="./assets/img/memoria-rom.jpg" alt="Memória ROM" width="400">
+
+### Relação com o Gargalo de Von Neumann
+O fato de dados e instruções compartilharem a mesma memória cria um problema:
+
+#### A CPU só pode buscar uma coisa por vez:
+- ou dados
+- ou instruções
+
+E como a CPU é muito mais rápida do que a memória, ela frequentemente fica esperando a memória responder.
+
+Isso reduz o desempenho geral do sistema.
+
+#### Consequências:
+
+- atrasos na execução
+- limitação de velocidade
+- necessidade de técnicas como cache, pipeline, prefetch etc.
+
