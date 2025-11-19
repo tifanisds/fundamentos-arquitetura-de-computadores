@@ -204,3 +204,31 @@ Uso: bancos de dados, operações intensivas.
 
 <img src="./assets/img/RAID 10 (1+0).webp" alt="RAID 10 (1+0)" width="500">
 
+## Tipos de HD (por Interface / Tecnologia)
+
+### IDE / PATA (Parallel ATA)
+
+- Antiga interface paralela.
+- Cabos largos de 40/80 vias.
+- Velocidades baixas (até ~133 MB/s).
+- Usada antes de 2005.
+
+### SATA (Serial ATA)
+Interface mais comum em PCs e notebooks.
+
+- Cabos finos e simples.
+- Velocidades:
+    - SATA I: 1.5 Gb/s
+    - SATA II: 3 Gb/s
+    - SATA III: 6 Gb/s
+- Usada em HDs mecânicos e alguns SSDs 2.5".
+
+<img src="./assets/img/pata-e-sata.png" alt="PATA e SATA" width="500">
+
+### SCSI (Small Computer System Interface)
+
+- Interface antiga profissional/servidores.
+- Alta durabilidade e velocidade (para sua época).
+- Precursora do SAS.
+
+
