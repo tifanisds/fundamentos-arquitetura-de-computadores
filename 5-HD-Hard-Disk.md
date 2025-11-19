@@ -58,3 +58,61 @@ Resultado:
 - A produção aumentou globalmente, diminuindo custos.
 - Surgiram linhas especializadas (para notebook, desktop, servidores).
 
+## Estrutura do HD
+Para entender como um HD funciona, é importante conhecer seus componentes internos, que trabalham juntos para ler e gravar dados usando magnetismo. Um HD é uma peça de engenharia extremamente precisa, com partes que operam na escala de nanômetros.
+
+### 1. Pratos (Platters)
+São discos circulares de alumínio, vidro ou cerâmica, altamente polidos.
+Eles ficam empilhados dentro do HD e são onde os dados realmente são armazenados.
+
+#### Características:
+- Recobertos por uma camada magnética.
+- Giram em alta velocidade (5.400, 7.200, 10.000 RPM).
+- Cada prato possui duas faces graváveis.
+
+Quanto mais pratos, maior a capacidade do HD.
+
+### 2. Camada Magnética
+É a superfície especial dos pratos onde os bits são representados.
+
+#### Como funciona:
+- Um bit é armazenado por meio da orientação magnética de partículas microscópicas.
+- Pequenas áreas magnetizadas → representam 0 ou 1.
+- A tecnologia evoluiu de gravação longitudinal → gravação perpendicular (mais densa).
+
+### 3. Cabeças de Leitura/Escrita (Read/Write Heads)
+São minúsculos sensores magnéticos responsáveis por:
+
+- Ler o magnetismo do prato
+- Escrever alterando o magnetismo da superfície
+
+#### Particularidades:
+- Cada face do prato tem sua própria cabeça.
+- Elas não encostam no prato.
+- Flutuam a nanômetros da superfície devido ao colchão de ar formado pela rotação.
+
+Qualquer poeira ou choque pode fazer a cabeça tocar o prato → “head crash” → dano permanente.
+
+### 4. Atuador (Actuator Arm)
+É o braço mecânico que movimenta as cabeças de leitura/escrita.
+
+#### Funções:
+- Deslocar as cabeças com movimento extremamente rápido e preciso.
+- Posicionar as cabeças sobre a trilha correta onde o dado está.
+
+#### Como funciona:
+- O movimento costuma ser feito por um atuador por bobina de voz (voice coil), semelhante ao alto-falante.
+- Movimentos precisos garantem leitura/gravação correta.
+
+Trabalha coordenado com sensores e a placa PCB para manter precisão de micrômetros.
+
+### 5. Motor de Rotação (Spindle Motor)
+É o motor que gira os pratos.
+
+#### Características:
+- Mantém rotações constantes (RPM fixos).
+- Pode girar a 5.400 rpm, 7.200 rpm, 10.000 rpm ou mais (servidores).
+- Quanto maior a velocidade, menor o tempo para encontrar dados.
+
+A estabilidade desse motor é fundamental — vibrações podem corromper a leitura.
+
