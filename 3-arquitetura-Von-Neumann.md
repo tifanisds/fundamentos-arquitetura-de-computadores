@@ -258,3 +258,86 @@ Isso reduz o desempenho geral do sistema.
 - limitação de velocidade
 - necessidade de técnicas como cache, pipeline, prefetch etc.
 
+## Barramentos
+Definir: vias de comunicação internas que conectam CPU, memória e periféricos.
+
+Tipos principais:
+
+Barramento de dados – transporte de informações.
+
+Barramento de endereço – indica onde os dados devem ser lidos ou escritos.
+
+Barramento de controle – sinais de comando e sincronização.
+
+Importância: eficiência do fluxo de informações entre componentes.
+
+## Ciclo de Instrução (opcional para estudo)
+Explicar como a UC e ULA interagem com a memória e barramentos durante o ciclo:
+
+Busca (Fetch) – a instrução é lida da memória.
+
+Decodificação (Decode) – UC interpreta a instrução.
+
+Execução (Execute) – ULA processa dados.
+
+Armazenamento (Store) – resultado é gravado na memória ou registradores.
+
+## Barramentos
+Os barramentos são conjuntos de vias (fios, trilhas elétricas ou linhas digitais) responsáveis por transportar informações dentro do computador.
+Eles fazem a comunicação entre a CPU, a memória e os dispositivos de entrada/saída, garantindo que todos os componentes possam trocar dados de forma organizada.
+
+Pense nos barramentos como estradas internas pelas quais os dados e comandos circulam.
+
+<img src="./assets/img/desenho-barramentos.png" alt="Barramentos" width="400">
+
+### O que são barramentos?
+Barramentos são canais de comunicação que permitem que diferentes partes do sistema transfiram informações.
+
+Eles carregam três tipos de conteúdo:
+
+- Dados
+- Endereços
+- Sinais de controle
+
+Cada tipo de informação usa um barramento próprio, porque eles têm finalidades distintas.
+
+### Tipos principais de barramentos
+#### 1. Barramento de Dados
+Transporta os dados propriamente ditos.
+Pode ser:
+
+- valores numéricos,
+- instruções,
+- resultados de cálculos,
+- qualquer informação que circule entre memória, CPU e periféricos.
+
+A largura do barramento (8 bits, 16 bits, 32 bits, 64 bits) determina quantos bits podem ser transmitidos simultaneamente — e isso influencia diretamente a velocidade.
+
+#### 2. Barramento de Endereços
+Indica onde os dados devem ser lidos ou escritos.
+
+Exemplos:
+
+- "CPU → RAM: acesse o endereço 0x0000F120"
+- "CPU → SSD: escreva no bloco X"
+
+A largura desse barramento determina o máximo de memória que o sistema consegue endereçar.
+Exemplo:
+
+Barramento de 32 bits → até 4 GB de endereçamento direto
+
+Barramento de 64 bits → até 16 exabytes teóricos
+
+#### 3. Barramento de Controle
+Transporta sinais de comando, como:
+
+- Read (leitura)
+- Write (escrita)
+- Clock (sincronização)
+- Interrupt (interrupções)
+- Reset (reinicialização)
+- Enable/Disable
+
+É o barramento que coordena e sincroniza o funcionamento dos outros dois.
+Sem ele, a CPU não conseguiria dizer à memória o que fazer e quando fazer.
+
