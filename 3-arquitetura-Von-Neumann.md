@@ -301,6 +301,8 @@ Eles carregam três tipos de conteúdo:
 
 Cada tipo de informação usa um barramento próprio, porque eles têm finalidades distintas.
 
+<img src="./assets/img/barramentos.jpg" alt="Barramentos" width="400">
+
 ### Tipos principais de barramentos
 #### 1. Barramento de Dados
 Transporta os dados propriamente ditos.
@@ -340,4 +342,106 @@ Transporta sinais de comando, como:
 
 É o barramento que coordena e sincroniza o funcionamento dos outros dois.
 Sem ele, a CPU não conseguiria dizer à memória o que fazer e quando fazer.
+
+## Ciclo de Instrução 
+O Ciclo de Instrução é o processo contínuo que a CPU realiza para executar um programa.
+
+Cada instrução passa por quatro etapas fundamentais (Busca, Decodificação, Execução e Armazenamento) e essas etapas dependem da UC, da ULA, da memória e dos barramentos
+
+Esse ciclo acontece de bilhões a trilhões de vezes por segundo em processadores modernos.
+
+<img src="./assets/img/ciclo-de-instrução.png" alt="Ciclo de instrução" width="400">
+
+### 1. Busca da Instrução (Fetch)
+Nesta etapa, a UC precisa localizar e recuperar a próxima instrução do programa.
+
+Como funciona:
+
+1 - A UC consulta o PC (Program Counter) para saber o endereço da próxima instrução.
+
+2 - Esse endereço é colocado no barramento de endereços.
+
+3 - A memória recebe o endereço e devolve o conteúdo (a instrução), enviando-o pelo barramento de dados.
+
+4 - A instrução é armazenada no IR (Instruction Register).
+
+Envolvidos:
+
+- UC (controla tudo)
+- Memória RAM (fornece a instrução)
+- Barramento de dados
+- Barramento de endereços
+
+| Em resumo: a UC busca a instrução na memória.
+
+### 2. Decodificação (Decode)
+Agora, a UC precisa interpretar o que essa instrução significa.
+
+O que acontece:
+
+1 - A UC lê o conteúdo do IR.
+
+2 - Decodifica quais operações devem ser realizadas:
+
+- operação aritmética?
+- comparação?
+- movimentação de dados?
+- salto condicional?
+
+A UC gera os sinais de controle que irão coordenar a execução.
+
+Envolvidos:
+
+- UC (interpreta)
+- IR (contém a instrução)
+- Sinais de controle
+- Barramento de controle
+
+| Em resumo: a UC entende a instrução e planeja como executá-la.
+
+### 3. Execução (Execute)
+Nesta fase, a CPU finalmente realiza a operação lógica, aritmética ou de controle.
+
+Como funciona:
+
+1 - Se for um cálculo → a UC envia dados para a ULA
+
+2 - A ULA realiza a operação (soma, subtração, AND, OR, comparação, etc.)
+
+3 - Se for uma instrução de I/O (Entrada/Saída) → a UC envia comandos para dispositivos externos
+
+4 - Se for um salto → a UC altera o valor do PC
+
+Envolvidos:
+
+- ULA (executa operações)
+- UC (coordena)
+- Registradores (armazenam valores temporários)
+- Barramento de dados
+
+| Em resumo: a ULA executa o que a UC comandou.
+
+### 4. Armazenamento (Store)
+Depois de executar a instrução, o resultado precisa ser guardado.
+
+Acontece assim:
+
+1 - O resultado da ULA é enviado para um registrador ou para a memória RAM, caso o programa precise salvar o valor
+
+2 - A UC envia sinais dizendo onde gravar o dado
+
+3 - O endereço é colocado no barramento de endereços
+
+4 - O dado viaja pelo barramento de dados
+
+Envolvidos:
+
+- Registradores
+- RAM
+- Barramentos de dados e endereços
+- UC (controla)
+- ULA (envia o resultado)
+
+| Em resumo: o resultado da execução é armazenado para uso posterior.
+
 
