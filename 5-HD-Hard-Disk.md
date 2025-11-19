@@ -116,3 +116,91 @@ Trabalha coordenado com sensores e a placa PCB para manter precisão de micrôme
 
 A estabilidade desse motor é fundamental — vibrações podem corromper a leitura.
 
+<img src="./assets/img/hd-explicado.jpg" alt="Estrutura do HDc" width="400">
+
+## Gravação e Leitura de Dados
+### Funcionamento Magnético
+
+O HD armazena informações usando magnetismo:
+- Cada bit (0 ou 1) é representado pela orientação magnética de partículas na superfície do prato.
+- Não há luz, nem eletricidade direta no prato — tudo é feito por campos magnéticos.
+
+### Trilhas, Setores e Cilindros
+Para organizar os dados, o disco é dividido em:
+
+- Trilha: um círculo completo no prato.
+- Setor: um pedaço da trilha (menor unidade endereçável).
+- Cilindro: conjunto de trilhas alinhadas verticalmente em todos os pratos.
+
+Essa estrutura ajuda o HD a localizar dados rapidamente.
+
+### Processo de Leitura
+
+1 - Motor gira os pratos em alta velocidade.
+
+2 - Atuador posiciona a cabeça exatamente na trilha onde o dado está.
+
+3 - A cabeça de leitura detecta mudanças no magnetismo da superfície.
+
+4 - A placa controladora (PCB) converte esses sinais analógicos em dados digitais (0 e 1).
+
+### Processo de Gravação
+
+- O atuador leva a cabeça até a trilha correta.
+- A cabeça cria um campo magnético que altera a polaridade da superfície.
+- Cada alteração representa um bit gravado.
+
+<img src="./assets/img/logica-de-gravacao-hd.jpg" alt="Lógica de gravação no HD" width="500">
+
+
+## RAID e seus Tipos
+RAID é uma técnica que combina vários HDs para melhorar desempenho, segurança ou ambos.
+
+### RAID 0 – Striping
+- Divide os dados entre os discos.
+    - Prós: velocidade máxima.
+    - Contras: zero segurança — se 1 disco falhar, tudo se perde.
+
+Uso: jogos, edição de vídeo, sistemas temporários.
+
+<img src="./assets/img/RAID 0 – Striping.jpg" alt="RAID 0 – Striping" width="500">
+
+### RAID 1 – Mirroring
+Um disco espelha o outro.
+- Prós: alta segurança (backup imediato).
+- Contras: dobra o custo (capacidade total cai pela metade).
+
+Uso: servidores pequenos, ambientes críticos.
+
+<img src="./assets/img/RAID 1 – Mirroring.png" alt="RAID 1 – Mirroring" width="500">
+
+### RAID 5 – Paridade Distribuída
+Precisa de 3 discos.
+
+- Prós: segurança + melhor aproveitamento do espaço.
+- Contras: reconstrução lenta se um disco falha.
+
+Uso: servidores e storages empresariais.
+
+<img src="./assets/img/RAID 5 – Paridade Distribuída.webp" alt="RAID 5 – Paridade Distribuída" width="500">
+
+### RAID 6 – Dupla Paridade
+Semelhante ao RAID 5, mas suporta falha de 2 discos.
+
+- Prós: segurança máxima sem espelhamento total.
+- Contras: desempenho menor e mais discos necessários.
+
+Uso: grandes servidores e sistemas críticos.
+
+<img src="./assets/img/RAID 6 – Dupla Paridade.webp" alt="RAID 6 – Dupla Paridade" width="500">
+
+### RAID 10 (1+0)
+Combina striping (RAID 0) + mirroring (RAID 1).
+
+- Prós: alta velocidade + alta segurança.
+- Contras: muito caro (metade da capacidade útil).
+
+Uso: bancos de dados, operações intensivas.
+
+<img src="./assets/img/RAID 10 (1+0).webp" alt="RAID 10 (1+0)" width="500">
+
