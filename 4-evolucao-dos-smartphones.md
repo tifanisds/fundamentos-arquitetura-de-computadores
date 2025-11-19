@@ -154,3 +154,58 @@ Essa mudança fez gigantes da época repensarem tudo, inclusive o Google, que re
 
 ** STYLUS: é um pequeno objeto em formato de caneta usado para interagir com a tela de dispositivos
 
+## Ascensão do Android (2008–2012)
+Entre 2008 e 2012, o Android saiu do zero para se tornar o sistema operacional móvel mais utilizado do mundo.
+Essa ascensão rápida não foi por acaso, ela envolveu estratégias técnicas, comerciais e uma filosofia aberta que atraiu fabricantes e consumidores.
+
+### Lançamento do Android e do HTC Dream (2008)
+O Android foi criado originalmente pela startup Android Inc., comprada pelo Google em 2005.
+O sistema foi oficialmente lançado em 2008, junto com o primeiro smartphone Android:
+
+#### HTC Dream (também chamado T-Mobile G1)
+
+- Teclado físico deslizante
+- Tela sensível ao toque
+- Android 1.0
+- Integração total com serviços Google (Gmail, Maps, YouTube)
+- Android Market (o precursor do Google Play)
+
+O HTC Dream não tinha o refinamento do iPhone, mas apresentava características inovadoras para o público técnico, como widgets e multitarefa rudimentar.
+
+<img src="./assets/img/HTC_Dream_Orange_FR.jpeg" alt="HTC Dream" width="400">
+
+### Android como sistema aberto (open source)
+A principal força do Android era (e ainda é): ele é um sistema operacional aberto.
+
+Por que isso importa?
+- O Google disponibilizou o Android gratuitamente (sob o projeto AOSP – Android Open Source Project), permitindo que:
+
+- qualquer fabricante pudesse usar o sistema
+- customizações fossem feitas livremente
+- o SO fosse adaptado para diferentes tamanhos de tela
+- a concorrência no mercado aumentasse
+- o preço dos dispositivos caísse significativamente
+
+### Expansão de fabricantes (Samsung, Motorola, LG, Sony, Xiaomi)
+Graças ao caráter open source, inúmeras marcas adotaram o Android:
+
+- Samsung
+- Motorola
+- LG e Sony
+- Xiaomi (a partir de 2011)
+
+### iPhone x Android
+
+iPhone (iOS):
+
+- maior refinamento
+- experiência controlada
+- ecossistema fechado e integrado
+- foco em qualidade, não quantidade
+
+Android:
+
+- muitos modelos para todos os bolsos
+- customização total
+- recursos avançados primeiro (widgets, multitarefa, tethering)
+- diversidade de hardware
